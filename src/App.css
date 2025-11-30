@@ -1,4 +1,3 @@
-/* Import aesthetic Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
 
 body {
@@ -10,7 +9,6 @@ body {
   overflow: hidden;
 }
 
-/* Desktop Layout */
 .desktop-container {
   width: 100vw;
   height: 100vh;
@@ -19,8 +17,6 @@ body {
   align-items: center;
   position: relative;
 }
-
-/* Big glowing gradients on both sides */
 .glow-left {
   position: absolute;
   width: 900px;
@@ -42,14 +38,10 @@ body {
   filter: blur(170px);
   z-index: -1;
 }
-
-/* Center Content */
 .content {
   text-align: center;
   max-width: 900px;
 }
-
-/* Title is BIG for desktop */
 .title {
   font-size: 5rem;
   font-weight: 800;
@@ -60,8 +52,6 @@ body {
   letter-spacing: 2px;
   text-shadow: 0px 0px 50px rgba(140,0,255,0.35);
 }
-
-/* Subtitle is wider + desktop friendly */
 .subtitle {
   margin-top: 15px;
   font-size: 1.4rem;
@@ -70,8 +60,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* BIG neon button */
 .start-btn {
   margin-top: 45px;
   padding: 18px 40px;
@@ -89,8 +77,6 @@ body {
 
   transition: 0.25s ease;
 }
-
-/* Hover effect (desktop-focused) */
 .start-btn:hover {
   transform: scale(1.08);
   box-shadow:
