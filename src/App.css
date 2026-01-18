@@ -215,3 +215,21 @@ body {
     justify-content: center;
   }
 }
+
+/* ---- End About Section ---- */
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+}     
+::-webkit-scrollbar-track {
+  background: #1a1a28;
+}
+::-webkit-scrollbar-thumb {
+  background: #4e22ff;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6a3dff;
+}       
+

@@ -22,7 +22,7 @@ function App() {
               </button>
 
               <button className="secondary-btn" onClick={() => alert("Coming soon")}>
-                Start Learning
+                Learn Now!
               </button>
             </div>
           </>
