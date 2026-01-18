@@ -14,7 +14,6 @@ function App() {
           <>
             <h1 className="title">Inkling AI</h1>
             <p className="subtitle">
-              Smart, AI-Powered Quiz Generation for Learning Anything in Seconds.
             </p>
 
             <div className="btn-row">
